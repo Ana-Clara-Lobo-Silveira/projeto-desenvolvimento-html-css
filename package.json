@@ -1,0 +1,16 @@
+{
+  "name": "projeto-desenvolvimento-html-css",
+  "version": "1.0.0",
+  "description": "Desenvolvimento de projeto referente aos conceitos de HTML e CSS.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "site",
+    "html",
+    "css"
+  ],
+  "author": "Ana Clara Lobo Silveira",
+  "license": "ISC"
+}
