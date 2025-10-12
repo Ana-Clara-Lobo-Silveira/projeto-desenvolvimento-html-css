@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/header.css">
+    <link rel="stylesheet" href="./src/footer.css">
+    <link rel="stylesheet" href="./src/global.css">
     <title>System Of A Down - Project-Page</title>
 </head>
 <!-- ------------------------------------------------------------------------------------------------------ -->
@@ -16,7 +19,7 @@
     <!------------------------------------------------------------------------------->
         <nav class="menu">
             <ul>
-                <a href="#pagina-inical">
+                <a href="#pagina-inicial">
                     <li>Página inicial</li>
                 </a>
 
@@ -34,16 +37,40 @@
             </ul>
         </nav>
     <!------------------------------------------------------------------------------->
-        <div class="search-bar">
+        <div class="barra-pesquisa">
             <input type="text" placeholder="Buscar..."/>
             <img src="src/assets/icons/icone-pesquisa.png" alt="Ícone de pesquisa.">
         </div>
     <!------------------------------------------------------------------------------->
     </header>
 <!-- ------------------------------------------------------------------------------------------------------ -->
-    <main class="main"></main>
+    <main class="main">
+        <section class="pg-pagina-inicial" id="pagina-inicial"></section>
+        <section class="pg-historia" id="historia"></section>
+        <section class="pg-integrantes" id="integrantes"></section>
+        <section class="pg-albuns-e-musicas" id="albuns-e-musicas"></section>
+    </main>
 <!-- ------------------------------------------------------------------------------------------------------ -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="ajuda">
+            <li><a href="#"><img src="./src/assets/icons/ajuda.svg" alt="Ícone de ajuda."></a></li>
+        </div>
+    <!------------------------------------------------------------------------------->
+        <div class="footer-logo">
+            <img src="./src/assets/img/soad-logo.png" alt="System Of A Down-Logo"/>
+        </div>
+    <!------------------------------------------------------------------------------->
+        <div class="redes-sociais">
+            <ul>
+                <li><a href="https://x.com/systemofadown"><img src="./src/assets/icons/icon-twitter.svg" alt="Ícone do Twitter."></a></li>
+                <li><a href="https://www.facebook.com/systemofadown"><img src="./src/assets/icons/icon-facebook.svg" alt="Ícone do Facebook."></a></li>
+                <li><a href="https://www.instagram.com/systemofadown/"><img src="./src/assets/icons/icon-instagram.svg" alt="Ícone do Instagram."></a></li>
+                <li><a href="https://www.youtube.com/@systemofadown"><img src="./src/assets/icons/icon-youtube.svg" alt="Ícone do Youtube."></a></li>
+                <li><a href="https://www.systemofadown.com/"><img src="./src/assets/icons/icon-site.svg" alt="Ícone do site oficial do SOAD."></a></li>
+            </ul>
+        </div>
+    <!------------------------------------------------------------------------------->
+    </footer>
 <!-- ------------------------------------------------------------------------------------------------------ -->
 </body>
 </html>
