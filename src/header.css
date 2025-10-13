@@ -3,7 +3,7 @@
     position: fixed; /*Vai sair do fluxo e vai ficar fixo, não se usa margem*/
     top: 0;
     left: 0;
-    height: 9vh;
+    height: 8vh;
     width: 100%;
     display: flex;
     align-items: center;
