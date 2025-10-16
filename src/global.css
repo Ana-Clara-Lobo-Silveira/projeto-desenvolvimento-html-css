@@ -6,7 +6,7 @@ html{
     scroll-behavior: smooth;
 }
 /* ----------------------------------------------------------------------------------------------- */
-.pg-pagina-inicial, .pg-historia, .pg-integrantes, .pg-discografia{
+.pg-pagina-inicial, .pg-historia, .pg-integrantes,.pg-historia-complemento, .pg-discografia{
     width: 100%;
     height: 100vh;
 }
@@ -42,26 +42,51 @@ html{
 /* ----------------------------------------------------------------------------------------------- */
 
 .pg-historia{
-    background-color: blue;
+    background-color: rgb(13, 13, 13);
     display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 .texto-pg-historia{
+    line-height: 1.5;
     height: 100%;
-    padding: 10px 50px;
+    width: 100%;
+    padding: 50px 15px;
     text-align: justify;
     color: white;
 }
 
-.img-pg-historia{
-    background-color: brown;
+.pg-historia-complemento{
+    background-color: rgb(13, 13, 13);
+    display: flex;
+    align-items: center;
     align-content: center;
+    justify-content: center;
+}
+
+.texto-pg-historia-complemento{
+    line-height: 1.5;
+    height: 100%;
+    width: 100%;
+    padding: 2px 15px;
+    text-align: justify;
+    color: white;
+}
+.pg-historia, .pg-historia-complemento h1{
+    font-size: 24px;
+}
+.pg-historia, .pg-historia-complemento p{
+    font-size: 16px;
+
+}
+.img-pg-historia{
+    align-items: center;
     text-align: center;
     height: 100%;
-    width: 26%;
 }
 .img-pg-historia img{
-    padding: 0px 10px;
-    height: 50%;
+    height: 100%;
 }
 /* ----------------------------------------------------------------------------------------------- */
 .pg-integrantes{
@@ -72,10 +97,10 @@ html{
 }
 /* ----------------------------------------------------------------------------------------------- */
 .integrante-card{
-    background-color: rgba(255, 255, 255, 0.993);
-    color: rgba(0, 0, 0, 0.76);
+    background-color: rgba(255, 255, 255, 0.37);
+    color: rgb(13, 13, 13);
     width: 20%;
-    height: 60%;
+    height: 65%;
     border-radius: 15px;
     overflow: hidden;
     transition: ease-out 0.3;
@@ -94,7 +119,7 @@ html{
 /* ----------------------------------------------------------------------------------------------- */
 .integrante-card figcaption{
     text-align: center;
-    padding: 8px;
+    padding: 2px;
 }
 
 .integrante-card figcaption h1{
@@ -114,7 +139,7 @@ html{
 }
 /* ----------------------------------------------------------------------------------------------- */
 .album-card{
-    background-color: rgba(255, 255, 255, 0.993);
+    background-color: rgba(255, 255, 255, 0.568);
     color: rgba(0, 0, 0, 0.76);
     width: 16%;
     height: 60%;
@@ -138,7 +163,6 @@ html{
 .album-card figcaption{
     padding: 5px;
 }
-
 .album-card figcaption h1{
     margin-bottom: 2px;
     font-weight: bold;
