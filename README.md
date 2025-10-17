@@ -1,4 +1,4 @@
-# System Of A Down - Project-Page
+# System Of A Down - Project Page
 ## Desenvolvimento de site em HTML e CSS.
 
 | Status | Data da Última Atualização |
